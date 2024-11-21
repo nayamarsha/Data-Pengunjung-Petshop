@@ -1,0 +1,31 @@
+GET http://localhost:5000/bookings
+
+###
+GET http://localhost:5000/bookings/1
+
+###
+POST http://localhost:5000/bookings
+Content-Type: application/json
+
+{
+    "ownerName": "Jhon Doe",
+    "ownerPhone": "081399880018",
+    "petName": "Milky",
+    "petType": "Cat",
+    "service": "Grooming"
+}
+
+###
+PATCH http://localhost:5000/bookings/1
+Content-Type: application/json
+
+{
+    "ownerName": "Naya Marsha Nabila",
+    "ownerPhone": "081399880018",
+    "petName": "Milky",
+    "petType": "Cat",
+    "service": "Grooming"
+}
+
+###
+DELETE http://localhost:5000/bookings/2
