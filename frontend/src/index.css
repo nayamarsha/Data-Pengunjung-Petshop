@@ -1,0 +1,6 @@
+/* src/index.css */
+
+/* Direktif untuk mengimpor utilitas dari Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
